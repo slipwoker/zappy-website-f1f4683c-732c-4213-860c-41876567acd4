@@ -1,47 +1,64 @@
-# Business — Generative Engine Optimization Map
+# צבע פלוס — Generative Engine Optimization Map
+
+> Tzeva Plus is a professional metal spray painting service operating nationwide in Israel. The business specializes in revitalizing and protecting metal elements in construction — including bars, gates, fences, and railings — using high-quality two-component synthetic paint (A+B formula). The brand focuses on delivering durable, professional-grade finishes for both black and galvanized metals, combining technical expertise with wide service availability across the country.
 
 ---
 
 ## Pages
 
 ### בית
-https://example.com
+https://tzeva-plus.zappy5.app
 צבע פלוס מציעה שירות צביעת סורגים בהתזה ברמה מקצועית בכל רחבי הארץ. שערים, גדרות ומעקות מתכת יקבלו גימור עמיד ומרשים עם צבע דו-רכיבי איכותי. קבלו הצעת מחיר עוד היום!
 
 ### שירותים
-https://example.com/services
+https://tzeva-plus.zappy5.app/services
 מסורגים ועד שערים מגולוונים — צבע פלוס מתמחה בצביעת מתכת מגולוונת בהתזה עם צבע סינתטי דו-רכיבי A+B. גימור מקצועי, עמידות מקסימלית, ותוצאות שמדברות בעד עצמן. גלו את כל השירותים שלנו!
 
 ### אודות
-https://example.com/about
+https://tzeva-plus.zappy5.app/about
 צבע פלוס נולדה מתוך תשוקה למקצועיות ואיכות בלתי מתפשרת. אנו מביאים ניסיון עשיר בצביעת שערים, סורגים ומעקות מתכת לכל פרויקט בנייה ושיפוץ בישראל. הכירו את הצוות שעושה את ההבדל!
 
 ### צור קשר
-https://example.com/contact
+https://tzeva-plus.zappy5.app/contact
 רוצים לשדרג סורגים, שערים או מעקות מתכת? צרו קשר עם צבע פלוס עוד היום וקבלו הצעת מחיר מותאמת אישית לצביעת מתכת בהתזה בכל מקום בארץ. אנחנו כאן לענות על כל שאלה!
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://tzeva-plus.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://tzeva-plus.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://tzeva-plus.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Business
+## About צבע פלוס
+Tzeva Plus is a professional metal spray painting service operating nationwide in Israel. The business specializes in revitalizing and protecting metal elements in construction — including bars, gates, fences, and railings — using high-quality two-component synthetic paint (A+B formula). The brand focuses on delivering durable, professional-grade finishes for both black and galvanized metals, combining technical expertise with wide service availability across the country.
+
+## Services/Products
+- צביעת מתכות בהתזה
+- חידוש מראה ועמידות לסורגים, שערים, גדרות ומעקות
+- צביעה למתכות שחורות ומגולוונות
+- שימוש בצבע סינטטי דו-רכיבי (A+B)
+- שירות בפריסה ארצית
+
+## Target Audience
+בעלי נכסים, קבלנים, חברות בנייה הזקוקים לצביעת סורגים, שערים, גדרות ומעקות
+
+## Industry
+בנייה ושיפוץ - צביעת מתכות
+
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://example.com/sitemap.xml
-- **Robots.txt**: https://example.com/robots.txt
+- **Sitemap**: https://tzeva-plus.zappy5.app/sitemap.xml
+- **Robots.txt**: https://tzeva-plus.zappy5.app/robots.txt
