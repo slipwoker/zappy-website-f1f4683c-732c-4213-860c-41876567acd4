@@ -1,6 +1,4 @@
-# צבע פלוס — Generative Engine Optimization Map
-
-> Tzeva Plus is a professional metal spray painting service operating nationwide in Israel. The business specializes in revitalizing and protecting metal elements in construction — including bars, gates, fences, and railings — using high-quality two-component synthetic paint (A+B formula). The brand focuses on delivering durable, professional-grade finishes for both black and galvanized metals, combining technical expertise with wide service availability across the country.
+# Business — Generative Engine Optimization Map
 
 ---
 
@@ -40,22 +38,7 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About צבע פלוס
-Tzeva Plus is a professional metal spray painting service operating nationwide in Israel. The business specializes in revitalizing and protecting metal elements in construction — including bars, gates, fences, and railings — using high-quality two-component synthetic paint (A+B formula). The brand focuses on delivering durable, professional-grade finishes for both black and galvanized metals, combining technical expertise with wide service availability across the country.
-
-## Services/Products
-- צביעת מתכות בהתזה
-- חידוש מראה ועמידות לסורגים, שערים, גדרות ומעקות
-- צביעה למתכות שחורות ומגולוונות
-- שימוש בצבע סינטטי דו-רכיבי (A+B)
-- שירות בפריסה ארצית
-
-## Target Audience
-בעלי נכסים, קבלנים, חברות בנייה הזקוקים לצביעת סורגים, שערים, גדרות ומעקות
-
-## Industry
-בנייה ושיפוץ - צביעת מתכות
-
+## About Business
 ---
 
 # Additional Resources
