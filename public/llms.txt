@@ -5,33 +5,33 @@
 ## Pages
 
 ### בית
-https://tzeva-plus.zappy5.app
+https://spraypro.co.il
 צבע פלוס מציעה שירות צביעת סורגים בהתזה ברמה מקצועית בכל רחבי הארץ. שערים, גדרות ומעקות מתכת יקבלו גימור עמיד ומרשים עם צבע דו-רכיבי איכותי. קבלו הצעת מחיר עוד היום!
 
 ### שירותים
-https://tzeva-plus.zappy5.app/services
+https://spraypro.co.il/services
 מסורגים ועד שערים מגולוונים — צבע פלוס מתמחה בצביעת מתכת מגולוונת בהתזה עם צבע סינתטי דו-רכיבי A+B. גימור מקצועי, עמידות מקסימלית, ותוצאות שמדברות בעד עצמן. גלו את כל השירותים שלנו!
 
 ### אודות
-https://tzeva-plus.zappy5.app/about
+https://spraypro.co.il/about
 צבע פלוס נולדה מתוך תשוקה למקצועיות ואיכות בלתי מתפשרת. אנו מביאים ניסיון עשיר בצביעת שערים, סורגים ומעקות מתכת לכל פרויקט בנייה ושיפוץ בישראל. הכירו את הצוות שעושה את ההבדל!
 
 ### צור קשר
-https://tzeva-plus.zappy5.app/contact
+https://spraypro.co.il/contact
 רוצים לשדרג סורגים, שערים או מעקות מתכת? צרו קשר עם צבע פלוס עוד היום וקבלו הצעת מחיר מותאמת אישית לצביעת מתכת בהתזה בכל מקום בארץ. אנחנו כאן לענות על כל שאלה!
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://tzeva-plus.zappy5.app/privacy
+https://spraypro.co.il/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://tzeva-plus.zappy5.app/terms
+https://spraypro.co.il/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://tzeva-plus.zappy5.app/accessibility
+https://spraypro.co.il/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -43,5 +43,5 @@ Information about WCAG compliance and accessibility features.
 
 # Additional Resources
 
-- **Sitemap**: https://tzeva-plus.zappy5.app/sitemap.xml
-- **Robots.txt**: https://tzeva-plus.zappy5.app/robots.txt
+- **Sitemap**: https://spraypro.co.il/sitemap.xml
+- **Robots.txt**: https://spraypro.co.il/robots.txt

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://tzeva-plus.zappy5.app/sitemap.xml
+Sitemap: https://spraypro.co.il/sitemap.xml
