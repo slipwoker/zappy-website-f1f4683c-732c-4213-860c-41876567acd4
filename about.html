@@ -783,7 +783,7 @@
 </script>
   
   <main>
-    <section class="about-story-section" data-layout-spec="אודות-story" dir="rtl">
+    <section class="about-story-section" data-layout-spec="אודות-story" dir="rtl" id="zappy-section-0">
   <div class="about-story-container">
     <div class="about-story-grid">
 
@@ -818,7 +818,7 @@
       <!-- Image Column (END = LEFT in RTL) -->
       <figure class="about-story-figure">
         <div class="about-story-img-frame">
-          <img data-placeholder="about-story-image-1" data-context="A beautifully finished metal gate or railing in a modern Israeli residential building entrance. The metal surface has a smooth, even dark spray-painted finish — deep charcoal or black — catching soft natural light. The setting is clean and architectural: polished stone flooring, a well-maintained building facade, lush greenery in the background. The finish looks professional, durable, and refined. Shot from a slight angle to show texture and depth of the paint quality." width="600" height="720" src="/assets/site-about-story-image-1.webp" alt="שער מתכת צבוע בהתזה בגימור מקצועי ועמיד — צבע פלוס">
+          <div data-zappy-zoom-wrapper="true" data-element-id="img-1774528096305-mvxaf6a5k" data-element-type="image" data-zappy-zoom-wrapper-width="480px" data-zappy-zoom-wrapper-height="530px" data-zappy-zoom-wrapper-width-mode="px" data-zappy-zoom-clip="true" style="position: relative !important; overflow: hidden !important; width: 480px !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 530px !important; display: block !important;" data-zappy-wrapper-margins-applied="true"><img data-placeholder="about-story-image-1" data-context="A beautifully finished metal gate or railing in a modern Israeli residential building entrance. The metal surface has a smooth, even dark spray-painted finish — deep charcoal or black — catching soft natural light. The setting is clean and architectural: polished stone flooring, a well-maintained building facade, lush greenery in the background. The finish looks professional, durable, and refined. Shot from a slight angle to show texture and depth of the paint quality." width="600" height="720" src="/assets/business-general-service-upload-1774604198350.webp" alt="שער מתכת צבוע בהתזה בגימור מקצועי ועמיד — צבע פלוס" data-element-type="image" data-element-id="img-1774528096305-mvxaf6a5k" class="zappy-editable-image" data-resize-handler-attached="true" data-original-position="static" style="position: absolute !important; object-position: 50% 50%; margin: 0px !important; left: -1% !important; top: -13.272163% !important; width: 102% !important; height: 126.544327% !important; max-width: none !important; max-height: none !important; display: block; object-fit: cover;" data-zappy-zoom="1.02" data-zappy-original-width="480" data-zappy-original-height="530"></div>
         </div>
         <figcaption class="about-story-caption">גימור מקצועי לשערים ומעקות מתכת — עמיד, אחיד ואסתטי</figcaption>
       </figure>
@@ -1121,7 +1121,7 @@
             <span class="footer-heading__line"></span>
             ניווט מהיר
           </h3>
-          <ul class="footer-nav" style=""><li><a href="/services" class="footer-link"><i class="fas fa-chevron-left footer-link__icon" style="cursor: pointer;"></i>שירותים</a></li><li><a href="/about" class="footer-link"><i class="fas fa-chevron-left footer-link__icon" style="cursor: pointer;"></i>אודות</a></li><li><a href="/contact" class="footer-link"><i class="fas fa-chevron-left footer-link__icon" style="cursor: pointer;"></i>צור קשר</a></li></ul>
+          <ul class="footer-nav" ><li><a href="/services" class="footer-link"><i class="fas fa-chevron-left footer-link__icon" style="cursor: pointer;"></i>שירותים</a></li><li><a href="/about" class="footer-link"><i class="fas fa-chevron-left footer-link__icon" style="cursor: pointer;"></i>אודות</a></li><li><a href="/contact" class="footer-link"><i class="fas fa-chevron-left footer-link__icon" style="cursor: pointer;"></i>צור קשר</a></li></ul>
         </div>
 
         <!-- Column 3: Contact Info -->
@@ -1499,6 +1499,34 @@
       if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', initMobileLangMenu); }
       else { initMobileLangMenu(); }
       window.addEventListener('resize', function() { clearTimeout(window._mlrt); window._mlrt = setTimeout(initMobileLangMenu, 250); });
+    })();
+    </script>
+
+    <script>
+    (function(){
+      if(window.innerWidth>768)return;
+      function fixZW(){
+        document.querySelectorAll('[data-zappy-zoom-wrapper="true"]').forEach(function(w){
+          var cw=w.style.getPropertyValue('width');
+          if(!cw||cw==='100%')return;
+          w.style.setProperty('width','100%','important');
+          w.style.setProperty('max-width','100%','important');
+          w.style.setProperty('height','auto','important');
+          var img=w.querySelector('img');
+          if(img){
+            img.style.setProperty('position','relative','important');
+            img.style.setProperty('width','100%','important');
+            img.style.setProperty('height','auto','important');
+            img.style.setProperty('max-width','100%','important');
+            img.style.setProperty('max-height','400px','important');
+            img.style.setProperty('object-fit','cover','important');
+            img.style.setProperty('left','0','important');
+            img.style.setProperty('top','0','important');
+          }
+        });
+      }
+      if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',fixZW);
+      else setTimeout(fixZW,50);
     })();
     </script>
 </body>
