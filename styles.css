@@ -2699,9 +2699,10 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 /* ── RESPONSIVE ── */
 @media (max-width: 768px) {
   .index-hero-section {
-    min-height: 100svh;
-    padding-bottom: 90px;
-  }
+  min-height: 100svh;
+  padding-bottom: 90px;
+  align-items: flex-start;
+}
 
   .index-hero-section .index-hero-container {
   padding: 70px 16px 24px;
