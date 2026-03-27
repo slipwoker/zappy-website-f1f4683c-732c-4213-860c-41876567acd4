@@ -396,12 +396,12 @@
     // Check if background is transparent or rgba with 0 alpha
     const isTransparent = bgColor === 'transparent' || 
                          bgColor === 'rgba(0, 0, 0, 0)' ||
-                         (bgColor.startsWith('rgba') &amp;amp;amp;&amp;amp;amp; bgColor.includes(', 0)'));
+                         (bgColor.startsWith('rgba') &amp;amp;amp;amp;&amp;amp;amp;amp; bgColor.includes(', 0)'));
     
     if (isTransparent) {
       // Check for background-image or gradient
       const bgImage = computedStyle.backgroundImage;
-      if (bgImage &amp;amp;amp;&amp;amp;amp; bgImage !== 'none') {
+      if (bgImage &amp;amp;amp;amp;&amp;amp;amp;amp; bgImage !== 'none') {
         console.log('[Navbar] Navbar has background image/gradient, using dark text');
         bgColor = 'rgb(240, 240, 240)'; // Assume light background
       } else {
@@ -414,7 +414,7 @@
     
     // Calculate luminance to determine if background is light or dark
     const rgb = bgColor.match(/\d+/g);
-    if (rgb &amp;amp;amp;&amp;amp;amp; rgb.length &amp;amp;gt;= 3) {
+    if (rgb &amp;amp;amp;amp;&amp;amp;amp;amp; rgb.length &amp;amp;amp;gt;= 3) {
       const r = parseInt(rgb[0]);
       const g = parseInt(rgb[1]);
       const b = parseInt(rgb[2]);
@@ -550,7 +550,7 @@
       // ONLY apply inline positioning styles on mobile viewport
       // On desktop, the CSS handles hiding these buttons with display: none
       // Inline styles were breaking desktop layout by overriding CSS
-      const isMobileViewport = window.innerWidth &amp;amp;lt;= 768;
+      const isMobileViewport = window.innerWidth &amp;amp;amp;lt;= 768;
       
       if (mobileToggle) {
         // Icon sizing applies to all viewports for consistency
@@ -741,7 +741,7 @@
       phoneBtn.addEventListener('click', function() {
         // Get phone number from placeholder in page or use default
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
-        const phoneNumber = phoneLinks.length &amp;amp;gt; 0 
+        const phoneNumber = phoneLinks.length &amp;amp;amp;gt; 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
           : '0559255065';
         
@@ -758,7 +758,7 @@
     const handleWhatsAppVisibility = function() {
       const whatsappBtn = document.querySelector('.whatsapp-float');
       if (whatsappBtn) {
-        const isDesktop = window.innerWidth &amp;amp;gt;= 769;
+        const isDesktop = window.innerWidth &amp;amp;amp;gt;= 769;
         if (isDesktop) {
           whatsappBtn.style.setProperty('display', 'none', 'important');
           whatsappBtn.style.setProperty('visibility', 'hidden', 'important');
@@ -992,7 +992,7 @@
       <!-- Section Header -->
       <div class="index-process-header">
         <div class="index-process-gold-rule"></div>
-        <h2 class="index-process-title">הכנה מדויקת.<br></br><br></br><br></br><br></br>גימור שמחזיק לאורך זמן.</h2>
+        <h2 class="index-process-title">הכנה מדויקת.<br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>גימור שמחזיק לאורך זמן.</h2>
         <p class="index-process-subtitle">כל עבודת צביעת מתכות שאנו מבצעים עוברת תהליך מקצועי מובנה — החל מהערכת המשטח ועד לבדיקת הגימור הסופי. כך מבטיחים אנו תוצאה עמידה, אחידה ומרשימה לסורגים, שערים, גדרות ומעקות בכל פרויקט בנייה.</p>
       </div>
 
@@ -1065,7 +1065,7 @@
         <div data-zappy-zoom-wrapper="true" data-element-id="img-1774604474937-h8c10l48m" data-element-type="image" data-zappy-zoom-wrapper-width="343px" data-zappy-zoom-wrapper-height="457px" data-zappy-zoom-wrapper-width-mode="px" style="position: relative !important; overflow: visible !important; width: 100% !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: auto !important; display: block !important; min-height: 150px !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true"><img data-placeholder="index-process-image-1" data-context="Close-up professional spray painting on black metal bars or gate in a clean construction site environment. A worker in protective gear uses a spray gun to apply even coating on metal railings. The image has a technical, precise feel with visible paint mist and a sharp metallic surface. Warm site lighting, high contrast, photorealistic, professional quality." width="600" height="780" src="/assets/business-general-service-upload-1774605990568.webp" alt="צביעת סורגים בהתזה — עבודה מקצועית של צבע פלוס" data-element-type="image" data-element-id="img-1774604474937-h8c10l48m" class="zappy-editable-image" data-original-position="static" style="position: relative !important; object-position: 43% 25%; object-fit: cover !important; width: 100% !important; height: auto !important; max-width: 100% !important; display: block; border-radius: 8px; margin: 0px !important; max-height: 300px !important;" data-zappy-zoom="1"></img></div>
         <div class="index-process-image-badge">
           <span class="index-process-badge-num">3</span>
-          <span class="index-process-badge-text">שלבי תהליך<br></br><br></br><br></br><br></br>מקצועי</span>
+          <span class="index-process-badge-text">שלבי תהליך<br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>מקצועי</span>
         </div>
         <div class="index-process-image-overlay-line" aria-hidden="true"></div>
       </div>
@@ -1089,7 +1089,7 @@
     <!-- Intro Block -->
     <div class="portfolio-intro">
       <p><span class="portfolio-label">עבודות אחרונות</span>
-      </p><h2 class="portfolio-heading">שינוי שנראה לעין —<br></br><br></br><br></br><br></br><em class="portfolio-accent-word">מקצועיות שנמשכת לאורך שנים</em></h2>
+      </p><h2 class="portfolio-heading">שינוי שנראה לעין —<br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><em class="portfolio-accent-word">מקצועיות שנמשכת לאורך שנים</em></h2>
       <p class="portfolio-subtext">צביעת סורגים, שערים, גדרות ומעקות מתכת בהתזה מחזירה לכל אלמנט את יופיו המקורי ומעניקה לו שכבת הגנה עמידה לשנים. בין אם מדובר בנכס מגורים או מבנה מסחרי — הגימור שלנו מדבר בעד עצמו.</p>
     </div>
 
@@ -1098,7 +1098,7 @@
         <div data-zappy-zoom-wrapper="true" data-element-id="img-1774604474937-gtm38uzdu" data-element-type="image" data-zappy-zoom-wrapper-width="316px" data-zappy-zoom-wrapper-height="340px" data-zappy-zoom-wrapper-width-mode="px" style="position: relative !important; overflow: hidden !important; width: 316px !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 340px !important; display: block !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true"><img data-placeholder="index-portfolio-image-1" data-context="Professional metal spray painting of a large black wrought iron gate at a residential property in Israel. The gate has been freshly painted with high-quality two-component synthetic paint, showing a smooth, even deep-black finish with a slight sheen. Clean architectural setting, bright natural daylight, polished professional result." width="600" height="800" src="/assets/business-general-service-upload-1774606843773.webp" alt="שער מתכת שחור לאחר צביעה מקצועית בהתזה" data-element-type="image" data-element-id="img-1774604474937-gtm38uzdu" class="zappy-editable-image" data-original-position="static" style="object-position: 52% 50%; position: absolute !important; width: 100% !important; height: 115.454878% !important; object-fit: cover !important; max-width: none !important; display: block !important; margin: 0px !important; left: 0% !important; top: -7.727439% !important; max-height: none !important;" data-zappy-original-width="315.734375" data-zappy-original-height="340" data-zappy-zoom="1"></img></div>
         <figcaption class="portfolio-caption">
           <span class="caption-tag">שערים</span>
-          <span class="caption-text">שער חניה — צבוע ב RAL 1011 בסגנון רטרו<br></br><br></br><br></br><br></br>קלאסי. מראה עתיק אותנטי</span>
+          <span class="caption-text">שער חניה — צבוע ב RAL 1011 בסגנון רטרו<br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>קלאסי. מראה עתיק אותנטי</span>
         </figcaption>
       </figure><div class="portfolio-end-col">
 
@@ -1114,18 +1114,18 @@
         <figure class="portfolio-tile portfolio-tile--before-after">
           <div class="ba-wrapper" style="justify-content: center; width: 100%; text-align: center; margin-left: 0px; margin-right: 0px;">
             <div class="ba-half ba-half--before" style="max-width: 45ch; margin-left: auto; margin-right: auto;" data-zappy-text-width="narrow">
-              <br></br><br></br><br></br><br></br><div data-zappy-zoom-wrapper="true" data-element-id="img-1774604474937-99qhrlb4f" data-element-type="image" data-zappy-zoom-wrapper-width="170px" data-zappy-zoom-wrapper-height="227px" data-zappy-zoom-wrapper-width-mode="px" style="position: relative !important; overflow: visible !important; width: 100% !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: auto !important; display: block !important; min-height: 150px !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true"><img data-placeholder="index-portfolio-image-3" data-context="Before photo of rusty, peeling metal fence (gader) at a construction site in Israel. The fence shows visible rust, old flaking paint, and weathering. Natural daylight, documentary style photography." width="300" height="260" src="/assets/business-general-service-upload-1774609870450.webp" alt="גדר מתכת לפני צביעה — חלודה וקילוף" data-element-type="image" data-element-id="img-1774604474937-99qhrlb4f" class="zappy-editable-image" data-original-position="static" style="object-position: 37% 71%; object-fit: cover !important; display: block; max-width: 100% !important; position: relative !important; height: auto !important; margin-top: 0px !important; margin-bottom: 0px !important; width: 100% !important; max-height: 300px !important;" data-zappy-original-width="169.5" data-zappy-original-height="227" data-zappy-zoom="1.6" data-zappy-text-width="full"></img></div><p class=""><br></br><br></br><br></br><br></br>
+              <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><div data-zappy-zoom-wrapper="true" data-element-id="img-1774604474937-99qhrlb4f" data-element-type="image" data-zappy-zoom-wrapper-width="170px" data-zappy-zoom-wrapper-height="227px" data-zappy-zoom-wrapper-width-mode="px" style="position: relative !important; overflow: visible !important; width: 100% !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: auto !important; display: block !important; min-height: 150px !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true"><img data-placeholder="index-portfolio-image-3" data-context="Before photo of rusty, peeling metal fence (gader) at a construction site in Israel. The fence shows visible rust, old flaking paint, and weathering. Natural daylight, documentary style photography." width="300" height="260" src="/assets/business-general-service-upload-1774609870450.webp" alt="גדר מתכת לפני צביעה — חלודה וקילוף" data-element-type="image" data-element-id="img-1774604474937-99qhrlb4f" class="zappy-editable-image" data-original-position="static" style="object-position: 37% 71%; object-fit: cover !important; display: block; max-width: 100% !important; position: relative !important; height: auto !important; margin-top: 0px !important; margin-bottom: 0px !important; width: 100% !important; max-height: 300px !important;" data-zappy-original-width="169.5" data-zappy-original-height="227" data-zappy-zoom="1.6" data-zappy-text-width="full"></img></div><p class=""><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
               <span class="ba-label ba-label--before">לפני</span>
             </p></div>
             <div class="ba-divider" aria-hidden="true"></div>
             <div class="ba-half ba-half--after" style="max-width: 45ch; margin-left: auto; margin-right: auto;" data-zappy-text-width="narrow">
-              <br></br><br></br><br></br><br></br><div data-zappy-zoom-wrapper="true" data-element-id="img-1774604474937-u6jtpwwqc" data-element-type="image" data-zappy-zoom-wrapper-width="170px" data-zappy-zoom-wrapper-height="227px" data-zappy-zoom-wrapper-width-mode="px" style="position: relative !important; overflow: visible !important; width: 100% !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: auto !important; display: block !important; min-height: 150px !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true"><img data-placeholder="index-portfolio-image-4" data-context="After photo of the same metal fence (gader) at a construction site in Israel, freshly spray-painted with professional two-component synthetic paint in dark anthracite. Smooth, even, professional finish. Matching framing and angle to the before photo." width="300" height="260" src="/assets/business-general-service-upload-1774608706503.webp" alt="גדר מתכת לאחר צביעה מקצועית בהתזה" data-element-type="image" data-element-id="img-1774604474937-u6jtpwwqc" class="zappy-editable-image" data-original-position="static" style="object-position: 16% 37%; display: block !important; max-width: 100% !important; position: relative !important; width: 100% !important; height: auto !important; object-fit: cover !important; margin: 0px !important; max-height: 300px !important;" data-zappy-original-width="170" data-zappy-original-height="227" data-zappy-zoom="1.2" data-zappy-text-width="narrow"></img></div>
+              <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><div data-zappy-zoom-wrapper="true" data-element-id="img-1774604474937-u6jtpwwqc" data-element-type="image" data-zappy-zoom-wrapper-width="170px" data-zappy-zoom-wrapper-height="227px" data-zappy-zoom-wrapper-width-mode="px" style="position: relative !important; overflow: visible !important; width: 100% !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: auto !important; display: block !important; min-height: 150px !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true"><img data-placeholder="index-portfolio-image-4" data-context="After photo of the same metal fence (gader) at a construction site in Israel, freshly spray-painted with professional two-component synthetic paint in dark anthracite. Smooth, even, professional finish. Matching framing and angle to the before photo." width="300" height="260" src="/assets/business-general-service-upload-1774608706503.webp" alt="גדר מתכת לאחר צביעה מקצועית בהתזה" data-element-type="image" data-element-id="img-1774604474937-u6jtpwwqc" class="zappy-editable-image" data-original-position="static" style="object-position: 16% 37%; display: block !important; max-width: 100% !important; position: relative !important; width: 100% !important; height: auto !important; object-fit: cover !important; margin: 0px !important; max-height: 300px !important;" data-zappy-original-width="170" data-zappy-original-height="227" data-zappy-zoom="1.2" data-zappy-text-width="narrow"></img></div>
               <p><span class="ba-label ba-label--after">אחרי</span>
             </p></div>
           </div>
           <figcaption class="portfolio-caption portfolio-caption--ba">
             <span class="caption-tag">לפני ואחרי</span>
-            <span class="caption-text">גדר מתכת — בבית פרטי צבוע ירוק טבעי קלאסי בסמוך לגינה. <br></br><br></br><br></br><br></br>גוון RAL 6005</span>
+            <span class="caption-text">גדר מתכת — בבית פרטי צבוע ירוק טבעי קלאסי בסמוך לגינה. <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>גוון RAL 6005</span>
           </figcaption>
         </figure>
 
@@ -1184,7 +1184,7 @@
           <div class="footer-logo-wrap">
             <img src="/assets/business-logo.webp" alt="צבע פלוס" class="logo zappy-editable-image" data-element-type="image" data-element-id="img-1774518153381-mk8c1cvk5"></img>
           </div>
-          <p class="footer-tagline">מומחים בצביעת מתכות ושיפוץ מקצועי.<br></br><br></br><br></br><br></br>איכות, דיוק ואמינות בכל פרויקט.</p>
+          <p class="footer-tagline">מומחים בצביעת מתכות ושיפוץ מקצועי.<br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>איכות, דיוק ואמינות בכל פרויקט.</p>
           <div class="footer-social">
             <a href="https://facebook.com/profile.php?id=61578499300600" aria-label="Facebook" class="social-link"><i class="fab fa-facebook-f"></i></a>
             <a href="https://instagram.com/spraypro07/" aria-label="Instagram" class="social-link"><i class="fab fa-instagram" data-element-type="icon" data-element-id="icon-1774518153380-2lmfxtotl" data-icon-type="fontawesome"></i></a>
@@ -1216,7 +1216,7 @@
               <span class="footer-contact__icon"><i class="fas fa-phone" data-element-type="icon" data-element-id="icon-1774518153380-nkvaz4hz9" data-icon-type="fontawesome"></i></span>
               <a href="tel:0559255065" class="footer-link">0559255065</a>
             </li>
-            <li class="footer-contact__item"><a href="/"><span class="footer-contact__icon"><i class="fas fa-map-marker-alt" style="cursor: pointer;"></i></span>&amp;amp;amp;nbsp; &amp;amp;amp;nbsp;&amp;amp;amp;nbsp;<span style="caret-color: rgba(250, 248, 244, 0.7); color: rgba(250, 248, 244, 0.7); font-size: 14px;">פריסת ארצית<br></br><br></br><br></br><br></br></span></a></li>
+            <li class="footer-contact__item"><a href="/"><span class="footer-contact__icon"><i class="fas fa-map-marker-alt" style="cursor: pointer;"></i></span>&amp;amp;amp;amp;nbsp; &amp;amp;amp;amp;nbsp;&amp;amp;amp;amp;nbsp;<span style="caret-color: rgba(250, 248, 244, 0.7); color: rgba(250, 248, 244, 0.7); font-size: 14px;">פריסת ארצית<br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br></span></a></li>
           </ul>
         </div>
 
