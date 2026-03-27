@@ -2706,6 +2706,7 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
   .index-hero-section .index-hero-container {
   padding: 90px 16px 24px;
   justify-content: center;
+  padding-top: 70px;
 }
 
   .index-hero-section .index-hero-card {
