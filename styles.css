@@ -2704,9 +2704,10 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
   }
 
   .index-hero-section .index-hero-container {
-  padding: 90px 16px 24px;
+  padding: 70px 16px 24px;
   justify-content: center;
   padding-top: 70px;
+  align-items: flex-start;
 }
 
   .index-hero-section .index-hero-card {
@@ -8499,6 +8500,14 @@ nav.navbar .sub-menu li a:hover { color: #2F5D7C !important; background-color: r
   margin-left: 0px !important;
   margin-right: auto !important;
   justify-content: flex-start !important;
+}
+}
+
+@media (max-width: 768px) {
+#zappy-section-0 > [data-zappy-align-target] {
+  justify-content: flex-start !important;
+  margin-top: 70px !important;
+  margin-bottom: auto !important;
 }
 }
 
