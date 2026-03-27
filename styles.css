@@ -2507,10 +2507,9 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
   padding-bottom: 90px;
 }
 
-/* ── Background image ── */
 .index-hero-section .index-hero-bg {
   position: absolute;
-  inset: 0;
+  inset: 0px;
   z-index: 0;
   overflow: hidden;
 }
@@ -8439,6 +8438,12 @@ nav.navbar .sub-menu li a:hover { color: #2F5D7C !important; background-color: r
 
 #temp-section-1774523550908 .service-card-tags {
   justify-content: center !important;
+}
+
+.index-hero-section .index-hero-bg img {
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 100vh !important;
 }
 
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
