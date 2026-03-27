@@ -8488,6 +8488,20 @@ nav.navbar .sub-menu li a:hover { color: #2F5D7C !important; background-color: r
 }
 }
 
+@media (max-width: 768px) {
+#zappy-section-0 > [data-zappy-align-target] {
+  align-items: flex-start !important;
+  justify-content: flex-end !important;
+  margin: 0px auto auto 0px !important;
+}
+
+#zappy-section-0 > [data-zappy-align-target] > * {
+  margin-left: 0px !important;
+  margin-right: auto !important;
+  justify-content: flex-start !important;
+}
+}
+
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
 /* High-specificity rules to ensure RTL positioning wins over any [lang="en"] conflicts */
 /* For RTL sites: hamburger on RIGHT, phone on LEFT (mirror of LTR layout) */
