@@ -8410,6 +8410,10 @@ nav.navbar .sub-menu li a:hover { color: #2F5D7C !important; background-color: r
 }
 /* === NAVBAR STYLE OVERRIDES END === */
 
+.home-about-section p, .home-about-section, .home-intro-section p, .home-intro-section {
+  color: #ffffff !important;
+}
+
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
 /* High-specificity rules to ensure RTL positioning wins over any [lang="en"] conflicts */
 /* For RTL sites: hamburger on RIGHT, phone on LEFT (mirror of LTR layout) */
