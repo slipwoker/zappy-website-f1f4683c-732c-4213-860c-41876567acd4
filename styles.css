@@ -2537,14 +2537,13 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
     linear-gradient(105deg, rgba(31,35,40,0.82) 0%, rgba(31,35,40,0.55) 45%, rgba(31,35,40,0.22) 100%);
 }
 
-/* ── Container ── */
 .index-hero-section .index-hero-container {
   position: relative;
   z-index: 10;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 120px 32px 32px;
+  padding: 80px 32px 32px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -2705,9 +2704,9 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
   }
 
   .index-hero-section .index-hero-container {
-    padding: 110px 16px 24px;
-    justify-content: center;
-  }
+  padding: 90px 16px 24px;
+  justify-content: center;
+}
 
   .index-hero-section .index-hero-card {
     max-width: 100%;
