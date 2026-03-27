@@ -2547,6 +2547,7 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  padding-top: 0px;
 }
 
 /* ── Content card ── */
