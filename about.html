@@ -223,6 +223,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="המומחים שהפכו צביעת מתכת לאמנות — צבע פלוס">
     <meta name="twitter:description" content="צבע פלוס נולדה מתוך תשוקה למקצועיות ואיכות בלתי מתפשרת. אנו מביאים ניסיון עשיר בצביעת שערים, סורגים ומעקות מתכת לכל פרויקט בנייה ושיפוץ בישראל. הכירו את הצוות שעושה את ההבדל!">
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"LocalBusiness","@id":"https://paintplus360.co.il#organization","name":"צבע פלוס","url":"https://paintplus360.co.il","description":"Tzeva Plus is a professional metal spray painting service operating nationwide in Israel. The business specializes in revitalizing and protecting metal elements in construction — including bars, gates, fences, and railings — using high-quality two-component synthetic paint (A+B formula). The brand focuses on delivering durable, professional-grade finishes for both black and galvanized metals, combining technical expertise with wide service availability across the country.","address":{"@type":"PostalAddress","streetAddress":",, 4440108, Israel"},"contactPoint":[{"@type":"ContactPoint","contactType":"customer service","email":"lior_1807@icloud.com","telephone":"0559255065"}]},{"@type":"WebSite","@id":"https://paintplus360.co.il#website","url":"https://paintplus360.co.il","name":"צבע פלוס","publisher":{"@id":"https://paintplus360.co.il#organization"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://paintplus360.co.il"},{"@type":"ListItem","position":2,"name":"About","item":"https://paintplus360.co.il/about"}]}]}</script>
     <!-- ZAPPY_INTEGRATION_START analytics:add_facebook_pixel -->
 <!-- Facebook Pixel -->
 <script>
@@ -322,11 +323,37 @@
     </style>
 
     <style id="zappy-widget-visibility">
-      #mic-access-tool-general-button, .mic-access-tool-general-button,
-      #mic-init-access-tool .mic-access-tool-general-button, #mic-init-access-tool #mic-access-tool-general-button,
-      ._access-icon, #mic-access-tool-box, .mic-access-tool-box,
-      #mic-init-access-tool #mic-access-tool-box, div[id*="mic-access-tool-box"], ._access-menu {
-        display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important;
+      html[dir="rtl"] .whatsapp-float { right: 20px !important; left: auto !important; }
+      html[dir="ltr"] .whatsapp-float, html:not([dir]) .whatsapp-float { left: 20px !important; right: auto !important; }
+      html[dir="rtl"] #mic-access-tool-general-button, html[dir="rtl"] .mic-access-tool-general-button,
+      html[dir="rtl"] #mic-init-access-tool .mic-access-tool-general-button,
+      html[dir="rtl"] #mic-init-access-tool #mic-access-tool-general-button,
+      html[dir="rtl"] ._access-icon { left: 20px !important; right: auto !important; }
+      html[dir="ltr"] #mic-access-tool-general-button, html[dir="ltr"] .mic-access-tool-general-button,
+      html[dir="ltr"] #mic-init-access-tool .mic-access-tool-general-button,
+      html[dir="ltr"] #mic-init-access-tool #mic-access-tool-general-button,
+      html[dir="ltr"] ._access-icon,
+      html:not([dir]) #mic-access-tool-general-button, html:not([dir]) .mic-access-tool-general-button,
+      html:not([dir]) #mic-init-access-tool .mic-access-tool-general-button,
+      html:not([dir]) #mic-init-access-tool #mic-access-tool-general-button,
+      html:not([dir]) ._access-icon { right: 20px !important; left: auto !important; }
+      @media (max-width: 768px) { .whatsapp-float { display: flex !important; } }
+      @media (min-width: 769px) { .whatsapp-float { display: flex !important; } }
+      @media (max-width: 768px) {
+        #mic-access-tool-general-button, .mic-access-tool-general-button,
+        #mic-init-access-tool .mic-access-tool-general-button, #mic-init-access-tool #mic-access-tool-general-button,
+        ._access-icon, #mic-access-tool-box, .mic-access-tool-box,
+        #mic-init-access-tool #mic-access-tool-box, div[id*="mic-access-tool-box"], ._access-menu {
+          display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important;
+        }
+      }
+      @media (min-width: 769px) {
+        #mic-access-tool-general-button, .mic-access-tool-general-button,
+        #mic-init-access-tool .mic-access-tool-general-button, #mic-init-access-tool #mic-access-tool-general-button,
+        ._access-icon, #mic-access-tool-box, .mic-access-tool-box,
+        #mic-init-access-tool #mic-access-tool-box, div[id*="mic-access-tool-box"], ._access-menu {
+          display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important;
+        }
       }
     </style>
 </head>
@@ -1249,12 +1276,13 @@
             שעות פעילות
           </h3>
           <ul class="footer-hours">
-            <li class="footer-hours__item"><a href="/"><span class="footer-hours__day">ראשון – חמישי</span>
-              <span class="footer-hours__time">08:00 – 18:00</span></a></li>
-            <li class="footer-hours__item"><a href="/"><span class="footer-hours__day">שישי</span>
-              <span class="footer-hours__time">08:00 – 13:00</span></a></li>
-            <li class="footer-hours__item"><a href="/"><span class="footer-hours__day">שבת</span>
-              <span class="footer-hours__time">סגור</span></a></li>
+            <li class="footer-hours__item"><a href="/"><span class="footer-hours__day">ראשון</span>&nbsp;<span class="footer-hours__time">06:00 – 21:00</span></a></li>
+            <li class="footer-hours__item"><a href="/"><span class="footer-hours__day">שני</span>&nbsp;<span class="footer-hours__time">06:00 – 21:00</span></a></li>
+            <li class="footer-hours__item"><a href="/"><span class="footer-hours__day">שלישי</span>&nbsp;<span class="footer-hours__time">06:00 – 21:00</span></a></li>
+            <li class="footer-hours__item"><a href="/"><span class="footer-hours__day">רביעי</span>&nbsp;<span class="footer-hours__time">06:00 – 21:00</span></a></li>
+            <li class="footer-hours__item"><a href="/"><span class="footer-hours__day">חמישי</span>&nbsp;<span class="footer-hours__time">06:00 – 21:00</span></a></li>
+            <li class="footer-hours__item"><a href="/"><span class="footer-hours__day">שישי</span>&nbsp;<span class="footer-hours__time">06:00 – 15:00</span></a></li>
+            <li class="footer-hours__item"><a href="/"><span class="footer-hours__day">שבת</span>&nbsp;<span class="footer-hours__time">סגור</span></a></li>
           </ul>
           <p><a href="/contact" class="footer-cta">קבל הצעת מחיר <i class="fas fa-arrow-left"></i></a>
         </p></div>
